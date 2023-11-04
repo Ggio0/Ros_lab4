@@ -1,0 +1,8 @@
+prefix=/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/install
+
+Name: dynamixel_one_motor
+Description: Description of dynamixel_one_motor
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
