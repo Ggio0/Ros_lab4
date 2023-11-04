@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "dynamixel_one_motor"
-PROJECT_SPACE_DIR = "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/devel"
+PROJECT_SPACE_DIR = "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/devel"
 PROJECT_VERSION = "1.0.0"

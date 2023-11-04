@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/build'
+export CMAKE_PREFIX_PATH="/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src:$ROS_PACKAGE_PATH"

@@ -1,4 +1,4 @@
-prefix=/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/install
+prefix=/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/install
 
 Name: dynamixel_one_motor
 Description: Description of dynamixel_one_motor

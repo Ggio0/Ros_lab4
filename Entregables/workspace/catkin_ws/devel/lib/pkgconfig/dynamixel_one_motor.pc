@@ -1,4 +1,4 @@
-prefix=/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/devel
+prefix=/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/devel
 
 Name: dynamixel_one_motor
 Description: Description of dynamixel_one_motor

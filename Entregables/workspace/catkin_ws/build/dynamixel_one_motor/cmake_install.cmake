@@ -1,8 +1,8 @@
-# Install script for directory: /home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor
+# Install script for directory: /home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -47,43 +47,43 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/figuras" TYPE FILE FILES
-    "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/pose1.png"
-    "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/pose2.png"
-    "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/pose3.png"
-    "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/pose4.png"
-    "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/poshome.png"
-    "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/def.png"
+    "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/pose1.png"
+    "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/pose2.png"
+    "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/pose3.png"
+    "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/pose4.png"
+    "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/poshome.png"
+    "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor/src/dynamixel_one_motor/figuras/def.png"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/dynamixel_one_motor.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/dynamixel_one_motor.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_one_motor/cmake" TYPE FILE FILES
-    "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/dynamixel_one_motorConfig.cmake"
-    "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/dynamixel_one_motorConfig-version.cmake"
+    "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/dynamixel_one_motorConfig.cmake"
+    "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/dynamixel_one_motorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_one_motor" TYPE FILE FILES "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_one_motor" TYPE FILE FILES "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_one_motor" TYPE PROGRAM FILES "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/jointSrv.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_one_motor" TYPE PROGRAM FILES "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/jointSrv.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_one_motor" TYPE PROGRAM FILES "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/jointSub.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_one_motor" TYPE PROGRAM FILES "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/jointSub.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_one_motor" TYPE PROGRAM FILES "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/jointPub.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_one_motor" TYPE PROGRAM FILES "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/jointPub.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_one_motor" TYPE PROGRAM FILES "/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/phantomHMI.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_one_motor" TYPE PROGRAM FILES "/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/build/dynamixel_one_motor/catkin_generated/installspace/phantomHMI.py")
 endif()
 

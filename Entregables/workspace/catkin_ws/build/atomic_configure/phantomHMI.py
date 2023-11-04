@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/gio/Unal/Robot/lab4/Unal/Robot/lab4/catkin_ws/src/dynamixel_one_motor/scripts/phantomHMI.py'
+python_script = '/home/gio/Unal/Robot/lab4/lab4/Entregables/workspace/catkin_ws/src/dynamixel_one_motor/scripts/phantomHMI.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,
