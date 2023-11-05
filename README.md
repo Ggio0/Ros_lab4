@@ -71,6 +71,8 @@ Se configura el archivo CmakeList.txt para agregar el script de Python donde est
 Figura 11 código CmakeList.txt.
 Una vez creadas las rutas procedemos con la realización del código, donde utilizamos 3 servicios,  publicar, en la función join_publisher, donde tiene como parámetro un vector con la configuración de cada articulación en radianes; suscribirse, en la función listener, el cual se encarga de recibir las posiciones actuales del phantom, y por último el servicio de dynamixel, el cual no permite ajustar diversos parámetros de acuerdo al número id y su valor, en nuestra aplicación se usó para limitar el torque como se muestra en la figura 12.
 
+![image](https://github.com/Ggio0/Ros_lab4/assets/82681128/9298196d-86bb-43d5-9b08-99d95ce2890b)
+
 
 Figura 12 código en python.
 
@@ -80,6 +82,9 @@ Con estos servicios, se crea la función movTotalPartes, la cual recibe la posic
 Interfaz grafica
 
 La interfaz gráfica se llevó a cabo con la librería tkinter, donde se agregaron los nombres de los integrantes del grupo, dos imágenes, en la izquierda la pose pasada del robot, y en la derecha la pose actual, posteriormente se imprimen los valores de la pose anterior y luego los de la pose actual, por último, se configuraron 5 botones, los cuales se encargarían de llevar el robot articulación por articulación hasta la pose objetivo, dicha interfaz se muestra en la siguiente figura 13.
+
+![image](https://github.com/Ggio0/Ros_lab4/assets/82681128/a4586784-dbf4-4d67-ab04-e6fa92027348)
+
 
 Figura 13 código Interfaz gráfica.
 
